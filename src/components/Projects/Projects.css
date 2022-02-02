@@ -87,6 +87,7 @@
 .launch-link:hover {
 	background: #0f1624;
 	color: #fff;
+	/* transition: 0.3s ease-in-out; */
 }
 
 .tag-list {
