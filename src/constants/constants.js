@@ -8,10 +8,18 @@ import {
 
 export const projects = [
 	{
-		title: 'Memorable Quotes',
-		image: '/project-images/quotes-app-screenshot.png',
-		tags: [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />],
-		visit: 'https://mjo-quotes-app.herokuapp.com/',
+		title: 'Chat App',
+		image: '/project-images/chat-app-screenshot.png',
+		tags: [
+			<FaHtml5 />,
+			<FaCss3Alt />,
+			<SiJavascript />,
+			<FaNode />,
+			<SiExpress />,
+			<SiSocketdotio />,
+			<SiMongodb />,
+		],
+		visit: 'https://mjo-chat-app.herokuapp.com/',
 		id: 0,
 	},
 	{
@@ -28,18 +36,10 @@ export const projects = [
 		id: 1,
 	},
 	{
-		title: 'Chat App',
-		image: '/project-images/chat-app-screenshot.png',
-		tags: [
-			<FaHtml5 />,
-			<FaCss3Alt />,
-			<SiJavascript />,
-			<FaNode />,
-			<SiExpress />,
-			<SiSocketdotio />,
-			<SiMongodb />,
-		],
-		visit: 'https://mjo-chat-app.herokuapp.com/',
+		title: 'Memorable Quotes',
+		image: '/project-images/quotes-app-screenshot.png',
+		tags: [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />],
+		visit: 'https://mjo-quotes-app.herokuapp.com/',
 		id: 2,
 	},
 	{
