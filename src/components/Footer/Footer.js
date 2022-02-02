@@ -7,7 +7,7 @@ const Footer = () => {
 		<footer className='footer'>
 			<div className='container'>
 				<p className='copyright'>
-					CopyRight &copy; 2022 Michael Ogonowski Portfolio
+					Copyright &copy; 2022 Michael Ogonowski Portfolio
 				</p>
 
 				<a href='#' className='arrow'>

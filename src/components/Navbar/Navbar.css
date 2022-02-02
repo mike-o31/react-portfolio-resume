@@ -20,7 +20,7 @@ a:hover {
 	padding: 0.7rem;
 	width: 100vw;
 	height: 45px;
-	background: #0f1624;
+	background: #0f1c36;
 	opacity: 0.98;
 }
 
@@ -29,7 +29,6 @@ a:hover {
 }
 
 .top-left {
-	/* grid-area: 1 / 1 / 2 / 2; */
 	display: flex;
 	flex-direction: row;
 	justify-self: start;
@@ -38,7 +37,6 @@ a:hover {
 }
 
 .top-right {
-	/* grid-area: 1 / 2 / 2 / 4; */
 	display: flex;
 	justify-content: space-evenly;
 	justify-self: end;
@@ -62,26 +60,18 @@ a:hover {
 		padding: 0.5rem;
 	}
 	.nav-container {
-		/* display: grid; */
 		position: fixed;
-		/* grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(2, 60px);
-		grid-column-gap: 0.5rem;
-		grid-row-gap: 0.5rem; */
 	}
 	.top-left {
-		/* grid-area: 1 / 1 / 2 / 3; */
 		position: absolute;
 		top: 0;
 		left: 0;
 		z-index: 1;
-		/* transform: translate(25%, 50%); */
 	}
 	#span {
 		color: #fff;
 	}
 	.top-right {
-		/* grid-area: 2 / 2 / 3 / 5; */
 		position: absolute;
 		display: flex;
 		flex-direction: column;
@@ -94,7 +84,7 @@ a:hover {
 		transition: all 0.4s ease 0.19s;
 	}
 	.top-right.active {
-		background: #0f1624;
+		background: #0f1c36;
 		top: 4rem;
 		opacity: 1;
 		transition: all 0.5s ease;
