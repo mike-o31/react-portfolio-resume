@@ -30,7 +30,7 @@
 
 .blog-card {
 	border-radius: 10px;
-	box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+	box-shadow: 0 0 20px rgba(80, 78, 78, 0.5);
 	text-align: center;
 	width: 400px;
 	background-color: #0f1524;
@@ -81,7 +81,7 @@
 	margin-bottom: 2rem;
 	border: 2px solid #fff;
 	border-radius: 1.5rem;
-	transition: 0.3s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 .launch-link:hover {

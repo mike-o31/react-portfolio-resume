@@ -63,7 +63,7 @@
 	border-radius: 0.5rem;
 	gap: 2px;
 	cursor: pointer;
-	transition: 0.3s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 .link-button:hover {
@@ -81,10 +81,9 @@
 	display: grid;
 	max-width: 100%;
 	border-radius: 50%;
-	box-shadow: 5px 5px 40px rgba(80, 78, 78, 0.5);
+	box-shadow: 0px 0px 50px rgba(80, 78, 78, 0.6);
 	animation-name: fade-in;
 	animation-duration: 2s;
-	transition: 0.5s ease;
 }
 
 @keyframes fade-in {
