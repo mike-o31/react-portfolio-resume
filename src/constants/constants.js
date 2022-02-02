@@ -46,7 +46,7 @@ export const projects = [
 		title: 'Portfolio Resume',
 		image: '/project-images/portfolio-resume-screenshot.png',
 		tags: [<FaHtml5 />, <FaCss3Alt />, <FaBootstrap />],
-		visit: 'http://www.michaelogonowski.com/',
+		visit: 'https://mjo-portfolio-resume.netlify.app/',
 		id: 3,
 	},
 ];
