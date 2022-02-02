@@ -1,0 +1,140 @@
+.img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* overflow: hidden; */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.projects-container {
+	display: flex;
+	flex-wrap: wrap;
+	/* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+	padding: 3rem;
+	place-items: center;
+	justify-content: center;
+	column-gap: 5rem;
+	row-gap: 3rem;
+}
+
+.project-section-title {
+	display: flex;
+	justify-self: center;
+	flex-direction: column;
+	padding: 5rem 4.8rem 0;
+	font-size: 6.1rem;
+	font-weight: 500;
+	line-height: 6.5rem;
+	width: max-content;
+	max-width: 100%;
+}
+
+.blog-card {
+	border-radius: 10px;
+	box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+	text-align: center;
+	width: 400px;
+}
+
+.title-content {
+	text-align: center;
+	width: 100%;
+}
+
+.stack {
+	text-align: center;
+	width: 100%;
+	font-size: 2.3rem;
+	line-height: 3.2rem;
+}
+
+.project-title {
+	font-weight: 500;
+	letter-spacing: 2px;
+	color: #9cc9e3;
+	padding: 0.5rem 0.3em;
+	font-size: 3rem;
+}
+
+.hr {
+	width: 50px;
+	height: 3px;
+	margin: 15px auto;
+	border: 0;
+	background: #d0bb57;
+}
+
+.utility-list {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	margin: 2rem 0;
+}
+
+.launch-link {
+	color: #d4c0c0;
+	font-size: 2rem;
+	padding: 1rem 1.5rem;
+	margin-bottom: 2rem;
+	background: #6b3030;
+	border-radius: 15px;
+	transition: 0.3s ease-in-out;
+}
+
+.launch-link:hover {
+	background: #d60909;
+}
+
+.tag-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 1rem;
+}
+
+.tag {
+	color: #d8bfbf;
+	font-size: 3rem;
+}
+
+#projects {
+	display: grid;
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+	.project-section-title {
+		font-size: 5.5rem;
+		line-height: 5rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		padding: 2rem;
+		padding-bottom: 0;
+	}
+	.blog-card {
+		width: 100%;
+	}
+	.project-section-title {
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.project-section-title {
+		font-size: 4rem;
+		line-height: 4.5rem;
+	}
+}

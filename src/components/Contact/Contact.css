@@ -1,0 +1,98 @@
+.contact-section {
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.contact-section-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0 1.5rem;
+	padding: 0 1rem;
+}
+
+.contact-container {
+	margin-top: 2rem;
+	padding: 0 1rem;
+}
+
+.contact-section-title {
+	text-align: center;
+	font-size: 6.1rem;
+	font-weight: 500;
+	line-height: 6.5rem;
+	padding: 3.5rem 0 0;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list-item {
+	display: block;
+	position: relative;
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border: 1px solid rgba(255, 255, 255, 0.45);
+	border-width: 0 0 0.1rem;
+}
+
+.list-item:last-child {
+	border-bottom: 0;
+}
+
+.item {
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+	.contact-section-title {
+		font-size: 5.5rem;
+		line-height: 5rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.contact-section-title {
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+	.list-item {
+		font-size: 1.6rem;
+	}
+	.item {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.contact-section-title {
+		font-size: 4rem;
+		line-height: 4.5rem;
+	}
+	.list-item {
+		font-size: 1.4rem;
+	}
+	.item {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 350px) {
+	.list-item {
+		font-size: 1.2rem;
+	}
+	.item {
+		font-size: 1.5rem;
+	}
+}
