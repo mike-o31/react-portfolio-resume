@@ -16,7 +16,7 @@ const Contact = () => {
 						</li>
 						<li className='list-item'>
 							<span className='item'>LinkedIn:</span>{' '}
-							https://www.linkedin.com/in/michaelogonowski/
+							https://www.linkedin.com/in/michael-ogonowski/
 						</li>
 					</ul>
 				</div>

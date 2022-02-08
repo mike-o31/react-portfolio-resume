@@ -20,7 +20,7 @@ const Showcase = () => {
 						</button>
 					</a>
 					<a
-						href='https://www.linkedin.com/in/michael-ogonowski-a81495220/'
+						href='https://www.linkedin.com/in/michael-ogonowski/'
 						className='link'
 						target='_blank'>
 						<button className='link-button'>
