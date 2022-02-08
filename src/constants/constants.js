@@ -36,7 +36,7 @@ export const projects = [
 		id: 1,
 	},
 	{
-		title: 'Memorable Quotes',
+		title: 'Motivational Quotes',
 		image: '/project-images/quotes-app-screenshot.png',
 		tags: [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />],
 		visit: 'https://mjo-quotes-app.herokuapp.com/',
